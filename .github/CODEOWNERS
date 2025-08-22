@@ -1,0 +1,39 @@
+# CODEOWNERS file for admin-frontend-280
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-reporting @Armor-test/dept-security @Armor-test/grp-api
+
+# Directory ownership
+/ui/ @Armor-test/unit-design @Armor-test/team-frontend @Armor-test/squad-search
+/security/ @Armor-test/unit-governance @Armor-test/squad-api
+/tools/ @Armor-test/grp-ui @Armor-test/squad-mobile
+/helpers/ @Armor-test/squad-cache @Armor-test/squad-mobile
+/pkg/ @Armor-test/dept-billing @Armor-test/squad-mobile @Armor-test/squad-tooling
+/tests/ @Armor-test/dept-reliability @Armor-test/team-research
+/controllers/ @Armor-test/team-research @Armor-test/dept-release @Armor-test/dept-identity
+/static/ @Armor-test/grp-ui @Armor-test/dept-release
+/lib/ @Armor-test/team-core @Armor-test/squad-search
+/auth/ @Armor-test/team-research @Armor-test/dept-api
+/third_party/ @Armor-test/dept-reporting @Armor-test/dept-billing
+/modules/ @Armor-test/squad-product @Armor-test/squad-reporting @Armor-test/squad-payments
+/test/ @Armor-test/grp-payments @Armor-test/dept-release @Armor-test/squad-research
+
+# File type ownership
+*.gradle @Armor-test/grp-api @Armor-test/squad-api
+*.cpp @Armor-test/dept-security @Armor-test/team-research
+*.css @Armor-test/dept-release @Armor-test/grp-search @Armor-test/squad-reporting
+*.xml @Armor-test/team-governance @Armor-test/squad-cache @Armor-test/dept-test
+*.php @Armor-test/grp-reporting @Armor-test/unit-design
+*.py @Armor-test/team-governance @Armor-test/dept-release @Armor-test/unit-test
+*.kt @Armor-test/squad-frontend @Armor-test/grp-storage @Armor-test/team-notifications
+*.jsx @Armor-test/dept-notifications @Armor-test/grp-reporting @Armor-test/grp-api
+*.ts @Armor-test/squad-ux @Armor-test/grp-ui @Armor-test/squad-reporting
+*.sh @Armor-test/dept-release @Armor-test/squad-frontend @Armor-test/grp-reporting
+*.ini @Armor-test/grp-reporting @Armor-test/grp-api @Armor-test/squad-research
+*.rb @Armor-test/squad-cloud @Armor-test/squad-frontend @Armor-test/unit-test
+*.graphql @Armor-test/grp-reporting @Armor-test/grp-search @Armor-test/unit-governance
+*.config @Armor-test/dept-billing @Armor-test/dept-ui
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
